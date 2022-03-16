@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    background-color: #c2ffe7;
+}
+
+h1, h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    margin: auto;
+    width: 180px;
+    border-radius: 6px;
+}
+
+.form-box {
+    background-color: #5fdaa8d5;;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 600px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 6px;
+    box-shadow: 0 10px 10px rgba(109, 109, 109, 0.19), 2px 6px 6px rgba(109, 109, 109, 0.19);
+}
+
+label {
+    display: inline-table;
+    width: 90px;
+    text-align: left;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+input {
+    width: 300px;
+    border: thin solid rgb(170, 169, 169);
+    border-radius: 2px;
+    outline: none;
+    height: 25px;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px rgba(148, 148, 148, 0.1), 2px 6px 6px rgba(148, 148, 148, 0.1);
+}
+
+[type='checkbox'] {
+    width: 14px;
+}
+
+a:hover {
+    color: blue;
+}
+
+button {
+    font-family: 'Roboto Mono', monospace;
+    height: 40px;
+    width: 100px;
+    background-color:  #18865a;
+    color: #fff;
+    border: thin;
+    border-radius: 4px;
+}
